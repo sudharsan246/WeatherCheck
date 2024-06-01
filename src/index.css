@@ -1,0 +1,96 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 170, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  margin: 5px 5px;
+}
+h2{
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.Error-message h2{
+  font-size: 1.2rem;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.Error-message img{
+  margin: 20px 0px ;
+  height: 300px;
+}
+.Weather{
+  width: 330px;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 15px;
+}
+.Search{
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Weather-content{
+  margin-bottom: 40px;
+}
+.Temp{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.Temp h1{
+  margin: 0px;
+  padding: 0px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.Temp p{
+  font-size: 1rem;
+  margin: 0px;
+  margin-top: 2rem;
+}
+.Footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.content{
+  display: flex;
+  align-items: center;
+}
+.data{
+  text-align: left;
+}
+.button{
+  height: 20px;
+  background-color:hsl(200, 100%, 94%);
+  padding: 10px;
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(174, 235, 255);
+}
+img{
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+input[type="text"]{
+  width: 250px;
+  padding: 10px;
+  margin: 5px;
+  font-size: large;
+  background-color: hsl(200, 100%, 94%);
+  border: none;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
